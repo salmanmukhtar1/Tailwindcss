@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+
+  <!-- NAVBAR -->
+  <nav class="flex justify-between items-center px-6 md:px-16 py-6 border-b border-slate-800">
+
+    <h1 class="text-2xl font-bold text-blue-400">
+      Dev<span class="text-white">Portfolio.</span>
+    </h1>
+
+    <div class="hidden md:flex gap-8 text-gray-300">
+      <a href="#home" class="hover:text-blue-400 transition">Home</a>
+      <a href="#about" class="hover:text-blue-400 transition">About</a>
+      <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+      <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+      <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+    </div>
+
+    <a href="#contact"
+       class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg transition">
+      Hire Me
+    </a>
+
+  </nav>
+
+
+  <!-- HERO SECTION -->
+  <section id="home"
+    class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 md:px-16 py-24">
+
+    <div>
+
+      <p class="text-blue-400 font-semibold mb-4">
+        HELLO, I'M A DEVELOPER
+      </p>
+
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+        Building Digital
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+          Experiences.
+        </span>
+      </h1>
+
+      <p class="text-gray-400 text-lg mt-6 leading-relaxed">
+        I'm a software developer passionate about building
+        modern, responsive and user-friendly digital experiences.
+      </p>
+
+      <div class="flex flex-wrap gap-4 mt-8">
+
+        <a href="#projects"
+          class="bg-blue-600 hover:bg-blue-700 px-7 py-3 rounded-lg font-semibold transition">
+          View Projects →
+        </a>
+
+        <a href="#contact"
+          class="border border-slate-600 hover:border-blue-400 px-7 py-3 rounded-lg transition">
+          Contact Me
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- CODE CARD -->
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 shadow-2xl">
+
+      <div class="flex gap-2 mb-6">
+        <div class="w-3 h-3 rounded-full bg-red-400"></div>
+        <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+        <div class="w-3 h-3 rounded-full bg-green-400"></div>
+      </div>
+
+      <div class="font-mono text-sm md:text-base leading-8">
+
+        <p class="text-purple-400">const developer = {</p>
+
+        <p class="pl-6 text-gray-300">
+          name: <span class="text-green-400">'Your Name'</span>,
+        </p>
+
+        <p class="pl-6 text-gray-300">
+          role: <span class="text-green-400">'Software Developer'</span>,
+        </p>
+
+        <p class="pl-6 text-gray-300">
+          skills: [
+        </p>
+
+        <p class="pl-12 text-yellow-300">
+          'HTML', 'CSS', 'Tailwind'
+        </p>
+
+        <p class="pl-6 text-gray-300">],</p>
+
+        <p class="pl-6 text-gray-300">
+          passion: <span class="text-green-400">'Building the future'</span>
+        </p>
+
+        <p class="text-purple-400">};</p>
+
+        <p class="text-blue-400 mt-4">
+          developer.build();
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- STATS -->
+  <section class="grid grid-cols-2 md:grid-cols-4 gap-6 px-6 md:px-16 py-12 bg-slate-900">
+
+    <div class="text-center">
+      <h2 class="text-3xl font-bold text-blue-400">10+</h2>
+      <p class="text-gray-400 mt-2">Projects</p>
+    </div>
+
+    <div class="text-center">
+      <h2 class="text-3xl font-bold text-blue-400">2+</h2>
+      <p class="text-gray-400 mt-2">Years Learning</p>
+    </div>
+
+    <div class="text-center">
+      <h2 class="text-3xl font-bold text-blue-400">8+</h2>
+      <p class="text-gray-400 mt-2">Technologies</p>
+    </div>
+
+    <div class="text-center">
+      <h2 class="text-3xl font-bold text-blue-400">100%</h2>
+      <p class="text-gray-400 mt-2">Passion</p>
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="px-6 md:px-16 py-24">
+
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      About <span class="text-blue-400">Me</span>
+    </h2>
+
+    <p class="text-gray-400 max-w-3xl leading-8">
+      I'm a developer who enjoys solving problems and turning
+      creative ideas into real digital products. I focus on
+      writing clean code, learning new technologies and
+      creating responsive user interfaces.
+    </p>
+
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="px-6 md:px-16 py-20 bg-slate-900">
+
+    <h2 class="text-3xl font-bold text-center mb-12">
+      My <span class="text-blue-400">Skills</span>
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+      <div class="bg-slate-800 p-8 rounded-xl text-center hover:-translate-y-2 transition">
+        <h3 class="text-xl font-bold text-orange-400">HTML</h3>
+        <p class="text-gray-400 mt-2">Structure</p>
+      </div>
+
+      <div class="bg-slate-800 p-8 rounded-xl text-center hover:-translate-y-2 transition">
+        <h3 class="text-xl font-bold text-blue-400">CSS</h3>
+        <p class="text-gray-400 mt-2">Styling</p>
+      </div>
+
+      <div class="bg-slate-800 p-8 rounded-xl text-center hover:-translate-y-2 transition">
+        <h3 class="text-xl font-bold text-cyan-400">Tailwind</h3>
+        <p class="text-gray-400 mt-2">UI Design</p>
+      </div>
+
+      <div class="bg-slate-800 p-8 rounded-xl text-center hover:-translate-y-2 transition">
+        <h3 class="text-xl font-bold text-yellow-400">JavaScript</h3>
+        <p class="text-gray-400 mt-2">Programming</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="px-6 md:px-16 py-24">
+
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+      Featured <span class="text-blue-400">Projects</span>
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-blue-500 transition">
+
+        <div class="h-44 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+          <span class="text-5xl font-bold">01</span>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-bold">Portfolio Website</h3>
+          <p class="text-gray-400 mt-3">
+            A modern responsive personal portfolio.
+          </p>
+          <p class="text-blue-400 mt-4">HTML · Tailwind CSS</p>
+        </div>
+
+      </div>
+
+
+      <div class="bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-blue-500 transition">
+
+        <div class="h-44 bg-gradient-to-br from-green-400 to-cyan-600 flex items-center justify-center">
+          <span class="text-5xl font-bold">02</span>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-bold">Dashboard UI</h3>
+          <p class="text-gray-400 mt-3">
+            A clean dashboard interface for managing data.
+          </p>
+          <p class="text-blue-400 mt-4">HTML · Tailwind CSS</p>
+        </div>
+
+      </div>
+
+
+      <div class="bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-blue-500 transition">
+
+        <div class="h-44 bg-gradient-to-br from-orange-400 to-pink-600 flex items-center justify-center">
+          <span class="text-5xl font-bold">03</span>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-bold">Landing Page</h3>
+          <p class="text-gray-400 mt-3">
+            A beautiful landing page for a digital product.
+          </p>
+          <p class="text-blue-400 mt-4">HTML · Tailwind CSS</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="px-6 md:px-16 py-24 bg-slate-900 text-center">
+
+    <h2 class="text-3xl md:text-4xl font-bold">
+      Let's Build Something
+      <span class="text-blue-400">Together.</span>
+    </h2>
+
+    <p class="text-gray-400 mt-6 max-w-xl mx-auto">
+      Have an idea or a project in mind?
+      Let's connect and make it happen.
+    </p>
+
+    <a href="mailto:hello@example.com"
+      class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold transition">
+      Get In Touch →
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center py-8 border-t border-slate-800">
+
+    <p class="text-gray-500">
+      © 2026 Your Name. Built with HTML & Tailwind CSS.
+    </p>
+
+  </footer>
+
+</body>
+</html>
